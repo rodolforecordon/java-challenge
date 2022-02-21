@@ -1,7 +1,6 @@
-Questão 1
+### Questão 1
 
 O programa tem por objetivo imprimir no terminal uma escada que contenha a quantidade de degraus que o usuário escolher.
-
 Ao rodar a aplicação, é requerido que o usuário digite o número de linhas (degraus) que o programa retornará.
 O programa, então, faz o seguinte:
 - armazena o número digitado em uma variável de nome "n" e tipo "int"
@@ -9,7 +8,7 @@ O programa, então, faz o seguinte:
 - imprime no terminal uma linha para cada volta do loop, contendo n - i espaços e i asteriscos
 - o resultado final retorna uma escada que tem o primeiro degrau na base, com uma linha de apenas asteriscos, e o último degrau no topo, com apenas espaços e somente 1 asterisco como último caracter da linha à direita
 
-Questão 2
+### Questão 2
 
 O programa tem por objetivo imprimir o número mínimo de caracteres necessários para que uma senha seja criada, seguindo requisitos de segurança informados. Os requisitos são os seguintes:
 - Possuir no mínimo 6 caracteres.
@@ -23,5 +22,11 @@ Ao rodar a aplicação, os requisitos acima são informados no terminal e é req
 - a função retorna um valor booleano. Sendo "true" quando atende e "false" quando não atende
 - uma sequência de condicionais é feita para acrescentar a quantidade de caracteres mínima que deverão ser inputados pelo usuário a fim de ter uma senha segura
 
-Questão 3
+### Questão 3
 
+O programa tem por objetivo imprimir o número de pares anagramas em um *string*.
+Ao rodar a aplicação é requerido que o usuário digite um *string*. O programa, então:
+- utiliza duas funções para transformar a *string* inserida em um *array*
+- em um dois *for loop* aninhados, utiliza uma função para comparar os elementos do *array* criado, retornando um valor booleano
+- caso a comparação seja verdadeira, adiciona +1 em um contador
+- imprime no terminal o resultado do contador
